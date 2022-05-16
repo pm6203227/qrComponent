@@ -1,0 +1,39 @@
+.contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tarjeta {
+  background-color: hsl(0, 0%, 100%);
+  width: 319px;
+  height: 497px;
+  margin-left: 0px;
+  margin-top: 700px;
+  position: absolute;
+  border-radius: 30px;
+}
+
+.qr {
+  margin-top: 15px;
+  width: 285px;
+  height: 285px;
+  border-radius: 30px;
+}
+
+.tarjeta > h1 {
+  width: 250px;
+  height: 40px;
+  font-family: "Outfit", sans-serif;
+  font-size: 22px;
+  margin-top: 20px;
+  margin-left: 35px;
+}
+
+.parrafo {
+  width: 293px;
+  height: 50px;
+  margin-top: 35px;
+  margin-left: 13px;
+  color: hsl(211, 21%, 79%);
+}
